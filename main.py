@@ -38,7 +38,7 @@ def get_items_item():
 
 model = joblib.load('model/knn_model.joblib')
 scaler = joblib.load('model/scaler.joblib')
-
+#
 
 # Define a Pydantic model for input data validation
 class InputFeatures(BaseModel):
